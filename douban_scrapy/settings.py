@@ -90,7 +90,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 #FEED_URI = '/usr/local/scrapyd//feeds/%(name)s/data/%(time)s.jl'
-FEED_URI = 'feeds/%(name)s/data/%(time)s.jl'
+FEED_URI = 'feeds/%(name)s_%(time)s.jl'
 FEED_EXPORT_ENCODING = 'utf-8'
 #IMAGES_STORE = '/usr/local/scrapyd/feeds/images/douban/images'
-IMAGES_STORE = 'feeds/images/douban/images'
+IMAGES_STORE = 'feeds/images/'
